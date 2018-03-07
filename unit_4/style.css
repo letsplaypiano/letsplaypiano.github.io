@@ -1,0 +1,47 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	text-align: center;
+	background: #FFF;
+	font-family: Helvetica; Arial, sans-serif;
+	font-size: 20px
+	color: #808080;
+	line-height: 1.3;
+}
+
+header {
+	background-color: #FFF;
+	padding: 20px;
+}
+
+h1 {
+	color: #000000;
+
+}
+
+a {
+	color: #11C6ED;
+	text-decoration: none;
+}
+
+nav a {
+	color: #000000;
+	margin-right: 25px;
+}
+
+main {
+	padding: 20px;
+}
+
+footer {
+	background-color: 
+	padding: 20px;
+	text-align: center;
+}
+
+h3, h4 {
+	margin: 20px;
+}
