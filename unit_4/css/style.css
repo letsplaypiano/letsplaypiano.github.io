@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 @import url('https://fonts.googleapis.com/css?family=Questrial');
 
-}
-
 * {
 	padding: 0;
 	margin: 0;
@@ -35,9 +33,10 @@ h1 {
 }
 
 h2 {
-	color: #FFF
+	color: #FFF; 
 	text-transform: uppercase;
 }
+
 a {
 	color: #11C6ED;
 	text-decoration: none;
@@ -53,7 +52,7 @@ nav a {
 
 footer {
 	font-family:'Ubuntu', sans-serif;
-	background-color: 
+	background-color: #FFF; 
 	padding: 20px;
 	text-align: center;
 }
@@ -63,12 +62,12 @@ h3, h4 {
 }
 
 #intro {
-	background: url("images/heroimage.jpg");
+	background: url("../images/heroimage.jpg");
 	height: 85vh;
 	background-size: cover;
 	background-position: bottom;
-	color: #FFF
+	color: #FFF;
 	text-align: left;
-	padding: 4em
+	padding: 4em;
 	font-size: 2em;
 }
