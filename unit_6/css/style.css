@@ -113,3 +113,13 @@ footer {
 	clear: both;
 	height: 0;
 }
+
+a:hover {
+	background-color: #aaaaaa;
+}
+
+img {
+	width: 33.33%;
+	float: left;
+	padding: 20px;
+}
