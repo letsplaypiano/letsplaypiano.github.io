@@ -17,8 +17,7 @@ body {
 }
 
 header {
-	background-color: #FFED74;
-	border: 1px black solid;
+	background-color: #FFF;
 	padding: 20px;
 }
 
@@ -57,17 +56,16 @@ nav a {
 	letter-spacing: 2px;
 	display:inline-block;
 	padding: 1em .5em;
-	border: 2px solid #ffed74;
+	border: 2px solid #FFF;
 }
 nav a:hover {
 	border: 2px solid;
 }
 footer {
 	font-family:'Ubuntu', sans-serif;
-	background-color: #FF957E; 
+	background-color: #FFF; 
 	padding: 20px;
 	text-align: center;
-	border: 1px black solid;
 }
 
 
@@ -89,28 +87,6 @@ footer {
 	font-size: 2em;
 }
 
-#two_column {
-	background-color: FFB7CF;
-	border: 1px black solid;
-	padding: 20px;
-}
-
-#left {
-	background-color: #E582A2;
-	border: 1px black solid;
-	padding: 20px;
-	float: left;
-	width: 30%;
-}
-
-#right {
-	background-color: #E55B88;
-	border: 1px black solid;
-	padding: 20px;
-	float: right;
-	width: 62%;
-}
-
 .clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -120,10 +96,13 @@ footer {
 	height: 0;
 }
 
-
-
 img {
 	width: 33.33%;
 	float: left;
 	padding: 20px;
+}
+
+#about {
+	width: 600px;
+	margin: 0 auto;
 }
