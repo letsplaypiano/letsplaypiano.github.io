@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	text-align: center;
+	background: #FFF;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	font-size: 16px; /*1em = 16px*/
+	color: #000000;
+	line-height: 1.3;
+}
+
+header {
+	background-color: #FFF;
+	padding: 20px;
+}
+
+section {
+	font-family: 'Questrial', sans-serif;
+	/* background-color: #FFE2B8; */
+	/* border: 1px black solid; */
+	padding: 20px;
+}
+
+h1 {
+	font-family:'Ubuntu', sans-serif;
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 1.5em;
+
+}
+
+h2 {
+	color: #000; 
+	text-transform: uppercase;
+	margin: 20px;
+	font-size: 1.5em;
+}
+
+a {
+	color: #11C6ED;
+	text-decoration: none;
+}
+
+nav a {
+	font-family:'Ubuntu', sans-serif;
+	color: #000000;
+	margin-right: 25px;
+	font-weight: 600;
+	letter-spacing: 2px;
+	display:inline-block;
+	padding: 1em .5em;
+	border: 2px solid #FFF;
+}
+nav a:hover {
+	border: 2px solid;
+}
+footer {
+	font-family:'Ubuntu', sans-serif;
+	background-color: #FFF; 
+	padding: 20px;
+	text-align: center;
+}
+
+
+#intro {
+	background: url("../images/heroimage.jpg");
+	height: 85vh;
+	background-size: cover;
+	background-position: bottom;
+	color: #FFF;
+	text-align: left;
+	padding: 2em;
+	font-size: 1.8em;
+}
+
+.logo {
+	font-family:'Ubuntu', sans-serif;
+	color: #000;
+	text-transform: uppercase;
+	font-size: 2em;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+img {
+	width: 33.33%;
+	float: left;
+	padding: 20px;
+}
+
+#about {
+	max-width: 50em;
+	margin: 0 auto;
+}
+
+form {
+	font-family: 'Questrial', sans-serif;
+	/* background-color: #FFE2B8; */
+	/* border: 1px black solid; */
+	padding: 20px;
+}
+
+input {
+	font-family: 'Questrial', sans-serif;
+	display: block;
+	outline: none;
+	padding: 1em;
+	width: 100%;
+}
+
+div {
+	padding: 20px;
+}
+
+.headshot {
+	float: left;
+	margin-top: 1em;
+}
+
+input[type=submit] {
+	background: purple;
+	border: none;
+	color: #fff;
+	font-size: 1.5em;
+	margin: 1em 0 0;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 1200px){
+	nav {
+		float: none;
+	}
+	nav a {
+		margin: 0 1.6em .75em 0;
+	}
+}
+@media only screen and (max-width: 800px) {
+	h1, nav {
+		display: block;
+		text-align: center;
+	}
+	img {
+		float: none;
+		width: 100%;;
+	}
+	section {
+		width: 100%
+		padding: .6em;
+	}
+}
